@@ -2,7 +2,7 @@
 
 面向 Kubernetes 普通业务容器的公开工程参考：把应用日志、Pod 资源与对象状态整理成可查询、可验收的观测链路。
 
-**先给结论：复用已有平台；日志用 Loki、指标用 Prometheus、界面用 Grafana。保留 LoongCollector 作为应用文件与容器发现的候选方案，stdout/stderr 可选择 Alloy。先证明采集完整性与权限边界，再扩展功能。** 这些是本文的设计建议，不是已部署系统的结论。
+**先给结论：复用已有平台；日志用 Loki、指标用 Prometheus、界面用 Grafana。保留 LoongCollector 作为应用文件与容器发现的候选方案，stdout/stderr 可选择 Alloy。先证明采集完整性与权限边界，再扩展功能。** 
 
 ## 从哪里开始
 
